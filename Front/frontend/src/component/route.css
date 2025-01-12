@@ -1,0 +1,57 @@
+.design3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+
+
+}
+input{
+   
+    border-radius: 7px;
+    padding: 10px;
+    width: 100%;
+    
+}
+.main-container2{
+    background-color: skyblue;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.main2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(230, 230, 221);
+    border-radius: 20px;
+    width: 50%;
+    height: 50vh;
+   
+}
+.field2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   gap: 10px;
+}
+form{
+    width: 70%;
+}
+.field2>label{
+    font-size: x-large;
+    font-weight: bold;
+}
+.check{
+ display: flex;
+ justify-content: center;
+}
+.check>button{
+    font-size: larger;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

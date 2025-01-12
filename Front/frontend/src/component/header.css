@@ -1,0 +1,62 @@
+.heading{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 20px ;
+    text-decoration: none;
+    
+}
+.sub2{
+    background-color: #0b3d91;  
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;   
+}
+
+.listing{
+
+    gap: 50px;
+    align-items: center;
+    font-weight: 500;
+    font-size: large;
+    text-decoration: none;
+    color: beige;
+    
+
+
+}
+
+.any{
+    text-decoration: none;
+    color: white;
+}
+
+.any:hover{
+    color: gray;
+}
+.btn{
+    display: flex;
+    gap: 20px;
+
+}
+.log{
+    text-decoration: none;
+    color:black;    
+}
+.btn>button{
+    background-color: white;
+    border-radius: 12px;
+    width: 90px;
+    height: 45px;
+}
+button:hover{
+    background-color: lightskyblue;
+}
+.log:hover{
+    color: white;
+}
+
+
+
